@@ -1,0 +1,20 @@
+server:
+  port: 9411
+
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: configuration
+      password: username
+      name: zipkin-server
+      username: user
+
+  eureka:
+    client:
+      region: default
+      registryFetchIntervalSeconds: 5
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka

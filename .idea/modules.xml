@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FinalbackendI.iml" filepath="$PROJECT_DIR$/.idea/FinalbackendI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catalogservice/catalog-service.iml" filepath="$PROJECT_DIR$/catalogservice/catalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catalog-service/catalogservice.iml" filepath="$PROJECT_DIR$/catalog-service/catalogservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/config-server.iml" filepath="$PROJECT_DIR$/configuration/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/configserver.iml" filepath="$PROJECT_DIR$/config-server/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/configurationservice.iml" filepath="$PROJECT_DIR$/config-server/configurationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway-service.iml" filepath="$PROJECT_DIR$/gateway/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gatewayservice.iml" filepath="$PROJECT_DIR$/gateway-service/gatewayservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movieservice/movie-service.iml" filepath="$PROJECT_DIR$/movieservice/movie-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-service/movieservice.iml" filepath="$PROJECT_DIR$/movie-service/movieservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-registry/registryservice.iml" filepath="$PROJECT_DIR$/service-registry/registryservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serieservice/serie-service.iml" filepath="$PROJECT_DIR$/serieservice/serie-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serie-service/serieservice.iml" filepath="$PROJECT_DIR$/serie-service/serieservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/service-registry.iml" filepath="$PROJECT_DIR$/registry/service-registry.iml" />
+    </modules>
+  </component>
+</project>

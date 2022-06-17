@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: serie-service
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: serie_cl
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+queue:
+  serie:
+    name: SerieQueue
+
+message: ADDED SERIE
+
+  #  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          issuer-uri: https://accounts.google.com
+
+  mvc:
+    log-request-details: true
+
+server:
+  port: 8082
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      preferIpAddress: true
